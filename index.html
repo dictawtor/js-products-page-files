@@ -13,21 +13,21 @@
   <div class="content">
 
  <div class="product">
-    <div class="search">
-      <input type="text" placeholder=" Search...">
+    <div id="search">
+      <input type="text" id="search-IN" placeholder=" Search...">
     </div>
-    <div class="filter">
-      <button>All</button>
-      <button>Tech</button>
-      <button>Fashion</button>
-      <button>Health</button>
+    <div class="filters">
+      <button class="filter selected" data-filter="All"  >All</button>
+      <button class="filter"  data-filter="tech" >Tech</button>
+      <button class="filter"  data-filter="fashion" >Fashion</button>
+      <button class="filter" data-filter="health"  >Health</button>
     </div>
-    <div class="priceSearch">
+    <div id="priceSearch">
       <input type="number" placeholder="Search Price">
       <button>Search</button>
     </div>
   </div>
-  <div class="productItems">
+  <div id="productItems">
 
     <div class="productItem" data-category="tech">
       <img src="img/iphone.png" alt="">
